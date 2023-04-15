@@ -26,7 +26,7 @@ else:
     RANGESTART = int(sys.argv[1])
     RANGEEND = int(sys.argv[2])
 try:
-    RESULTFILE = 'found_secret_range.txt'
+    RESULTFILE = 'found_random_range.txt'
     print('[~] Loading Bitcoin bloomfilter...')
     BTC_BF_FILE = 'btc.bf'
     with open(BTC_BF_FILE, "rb") as fp:
