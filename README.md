@@ -46,6 +46,9 @@ python mpkc_secrets_range.py 10000000000000000 90000000000000000
 ```
 python mpkc_secrets_range.py
 ```
+
+If matches are found, the result will be written to a file.
+
 # List of addresses to check 
 ```
 PRIVATE KEY HEX: 0000000000000000000000000000000000000000000000000000000000000001
