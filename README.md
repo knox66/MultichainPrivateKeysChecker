@@ -15,10 +15,13 @@ btc.bf eth.bf doge.bf ltc.bf dash.bf zec.bf bch.bf
 ```
 
 # Usage
+The main purpose is to check the database of keys you have
 - Run with HEXes from file, input name after request:
 ```
 python mpkc_from_file.py
 ```
+
+Additional modes for testing
 - Run with range set in DEC, sequental:
 ```
 python mpkc_dec_range.py 1 100000
@@ -33,7 +36,7 @@ python mpkc_random_range.py 10000000000000000 90000000000000000
 ```
 - Run with default settings (1-256 bits)
 ```
-python mpkc_random_range.py for default settings (1-256 bits)
+python mpkc_random_range.py
 ```
 - Run with range set in DEC, using python secrets generator
 ```
