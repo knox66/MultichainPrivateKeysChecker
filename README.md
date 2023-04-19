@@ -49,6 +49,10 @@ python mpkc_secrets_range.py
 
 If matches are found, the result will be written to a file.
 
+# Screenshot
+
+![Screenshot of mpkc_from_file.py](https://github.com/seega/MultichainPrivateKeysChecker/blob/main/screenshot_mpkc_from_file.png)
+
 # List of addresses to check 
 ```
 PRIVATE KEY HEX: 0000000000000000000000000000000000000000000000000000000000000001
