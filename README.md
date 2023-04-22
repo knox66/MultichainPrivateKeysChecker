@@ -6,7 +6,7 @@ This is a tool for checking private keys for presence in the databases used, sup
 2. Install Python modules:
 
 ```
-pip install bit bitarray==1.9.2 bitcoinlib cashaddress eth_hash secrets simplebloomfilter
+pip install bit bitarray==1.9.2 bitcoinlib cashaddress eth_hash simplebloomfilter
 ```
 
 Windows: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
