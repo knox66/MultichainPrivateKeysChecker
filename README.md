@@ -2,12 +2,15 @@
 This is a tool for checking private keys for presence in the databases used, supports 7 types of coins (BTC, ETH, DOGE, LTC, DASH, ZEC, BCH) and 23 types of addresses.
 
 # Prepare to work
-1. Install Python (tested on 3.10)
+1. Install Python (tested on 3.10, 3.11)
 2. Install Python modules:
 
 ```
-pip install bitcoinlib simplebloomfilter cashaddress eth_hash bit secrets
+pip install bit bitarray==1.9.2 bitcoinlib cashaddress eth_hash secrets simplebloomfilter
 ```
+
+Windows: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
 
 3. Download databases from https://t.me/+5KYdGpreTuI2MTli
 ```
