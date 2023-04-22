@@ -6,7 +6,7 @@ This is a tool for checking private keys for presence in the databases used, sup
 2. Install Python modules:
 
 ```
-pip install bitcoinlib bloomfilter cashaddress eth_hash bit secrets
+pip install bitcoinlib simplebloomfilter cashaddress eth_hash bit secrets
 ```
 
 3. Download databases from https://t.me/+5KYdGpreTuI2MTli
